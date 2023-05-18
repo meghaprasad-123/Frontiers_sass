@@ -1,0 +1,14 @@
+$font-common :'Raleway', sans-serif; 
+$primary-color : black;
+$secondary-color: #040404;
+$last-color : #282828;
+
+@mixin flexCenter{
+  display: flex;
+  align-items: center;
+}
+@mixin flexBetween{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
